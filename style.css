@@ -60,5 +60,33 @@
 }
 
 .estudantes{
-    
+    background-color:   linear-gradient ( black, white);
+
 }
+
+.estuddante-titulo{
+text-align: center;
+font-size: 32px;
+color:black;
+padding: 30px ;
+
+}
+
+.estudantes-todos{
+display: grid;
+grid-auto-columns: 25% 25% 25% 25%;
+
+}
+
+.rodape{ 
+    background-color: black  ;
+    text-align: center;
+
+}
+
+.rodape-imagem{
+width: 30%;
+
+}
+
+

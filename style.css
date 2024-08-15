@@ -1,102 +1,91 @@
-:root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #F9F9F9;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
-    --fonte-principal: 'Inter';
-
-}
-
-body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
-    font-family: var(--fonte-principal);
-
-    font-size: 16px;
-    font-weight: 400;
-}
-
 * {
     margin: 0;
     padding: 0;
 }
 
-.principal {
-    background-image: url(Background.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+.cabecalho {
+    background-color: #618451;
+    color: white;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    text-align: center;
+    padding: 24px;
+    font-family: " poppins",sans-serif;
 }
 
-
-.container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+.cabecalho-imagem {
+    width: 10%;
 }
 
-.container__botao {
-    background-color: var(--botao-azul);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    display: block;
-    text-decoration: none;
-    margin-bottom: 1em;
-}
-
-.botao_secundario {
-    background-color: transparent;
-    border: 2px solid var(--branco-principal);
-}
-
-
-.container__aviso {
-    font-size: 12px;
-    color: var(--cinza-secundario);
-
-}
-
-.container__titulo {
-    font-size: 28px;
-    font-weight: 700;
-}
-
-.container__imagem {
-    margin: 1em 0 6em;
-}
-
-.container__caixa {
-    margin: 0 6em;
-}
-
-.secundario__imagem {
-    width: 80%;
-}
-
-.secundario {
-    align-items: center;
-    margin: 0 10em;
-}
-
-.descricao__titulo {
-    font-weight: 700;
-    font-size: 48px;
-    color:var(--branco-principal);
-    margin-bottom: 0.1em;
-}
-
-.descricao__texto{
-    color: var(--cinza-secundario);
-
-}
-
-.secundario__botao{
+.cabecalho-lista-item {
     display: inline-block;
-    margin-top: 1em;
+    margin: 0 16px;
+    font-size: 24px;
 }
 
-.container__descricao{
-    padding: 2em;
+.escola-imagem {
+    width: 30%;
 }
+
+.escola {
+    background-image: linear-gradient(#618451, #FCF6BD);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo {
+    width: 35%;
+    text-align: center;
+    font-family: " poppins",sans-serif;
+}
+
+.escola-titulo {
+    font-size: 30px;
+    padding: 24px 0;
+    text-align: center;
+
+}
+.estudante-imagem{
+    width: 10%;
+}
+.estudante-icone{ 
+    width: 35px;
+}
+.estudante-div{
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.estudantes{
+    background-color:   linear-gradient ( black, white);
+
+}
+
+.estuddante-titulo{
+text-align: center;
+font-size: 32px;
+color:black;
+padding: 30px ;
+
+}
+
+.estudantes-todos{
+display: grid;
+grid-auto-columns: 25% 25% 25% 25%;
+
+}
+
+.rodape{ 
+    background-color: black  ;
+    text-align: center;
+
+}
+
+.rodape-imagem{
+width: 30%;
+
+}
+
